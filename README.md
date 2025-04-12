@@ -13,7 +13,7 @@ yarn add flint
 ```
 
 ```bash
-import { sqliteServ, dbVerServ, storageServ } from '../services/globalServices';
+import { sqliteServ, dbVerServ, storageServ } from './globalServices';
 import { getGunSQLiteAdapter } from '@/composables/GunStorageAdapter';
 
 const gunSQLiteAdapter = getGunSQLiteAdapter(sqliteServ, dbVerServ, storageServ);
